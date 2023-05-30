@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>jQuery Mobile</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"> <link
+rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script
+
+src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+
+</head>
+
+<body>
+<div data-role="page" id="page1">
+<div data-role="header">
+<div data-role="controlgroup" data-type="horizontal">
+<a href="#" data-role="button" class="ui-btn-active" id="nav">Home</a>
+
+<a href="#page4" data-role="button" id="nav">About us</a>
+<a href="#page2" data-role="button" id="nav">contact us</a>
+<a href="#page3" data-role="button" id="nav">Registration form</a>
+</div>
+</div>
+<div data-role="content">
+<h1>I'm Vishrut Shetty</h1>
+<h2>I design and develop dynamic websites for small companies....</h2>
+<p>I was born on 19th february 2002 in pune and currently pursuing my degree in
+information technology at skncoe college.</p>
+<p>Hello you can apply here by filling our registration form</p>
+<p>I started web design and development about 1 year ago and have enjoyed doing it. We
+have started a team to connect young inspiring freshers to collaborate on new projects if you
+want to join please fill the registration form.</p>
+<a href="#page3" data-transition="flow" data-role="button" data-inline="true" >CLick here to
+apply </a>
+</div>
+<div data-role="footer">
+<h2>IT Hub Copyright &copy; 2010-2015</h2>
+</div>
+</div>
+
+<div data-role="page" id="page2">
+<div data-role="header">
+<a href="#page1" data-role="button" data-rel="back" data-transition="turn">Go Back</a>
+<h1>contact us</h1>
+</div>
+<div data-role="content">
+<p>You can contact us through this portal as well as information given
+below</p> <form>
+
+<label>Name:</label>
+<input type="text" data-clear-btn="false">
+
+<label>Mobile Number:</label>
+<input type="number" data-clear-btn="false">
+
+<label>Email: </label>
+<input type="email" data-clear-btn="false">
+
+<label>Profession:</label>
+<input type="search" data-clear-btn="false">
+
+<input type="submit" data-inline="true" value="Submit" data-theme="b" data
+transition="slidefade">
+</form>
+<!-- <a href="#page1" data-transition="slidefade"> Back to page 1</a> -->
+
+<h1>contact information</h1>
+<h6>Address:</h6>
+<address>B1 shantikunj OPP-GPO sadhu Wasvani road</address>
+<h6>Mobile Number:</h6>
+<p>1111112222222</p>
+<h6>Email Address:</h6>
+<p>IThub@gmail.com</p>
+</div>
+<div data-role="footer">
+<h2>IT Hub Copyright &copy; 2010-2015</h2>
+</div>
+
+</div>
+
+<div data-role="page" id="page3">
+<div data-role="header">
+<a href="#page1" data-role="button" data-rel="back" data-transition="turn">Go Back</a>
+<h1>Registration Form</h1>
+</div>
+<div data-role="content">
+<p> Fill the below form. </p>
+
+<form>
+<label>Name:</label>
+<input type="text" data-clear-btn="false">
+
+<label>Mobile Number:</label>
+<input type="number" data-clear-btn="false">
+<label>Email: </label>
+<input type="email" data-clear-btn="false">
+
+<div data-role="controlgroup">
+<legend>Gender:</legend>
+<label for="male">Male</label>
+<input type="radio" name="gender" id="male" value="male">
+<label for="female">Female</label>
+<input type="radio" name="gender" id="female" value="female">
+<label for="other">Others</label>
+<input type="radio" name="gender" id="other" value="other">
+</div>
+
+<fieldset data-role="controlgroup">
+<legend>Qualification:</legend>
+<label for="graduation">Graduation</label>
+<input type="checkbox" id="graduation" value="graduation"> <label
+for="postgraduation">Post Graduation</label> <input type="checkbox"
+id="postgraduation" value="postgraduation"> <label
+for="other">Other</label>
+<input type="checkbox" id="other" value="other">
+</fieldset>
+
+<fieldset data-role="controlgroup">
+<legend>languages you know:</legend>
+<label for="html">HTML</label>
+<input type="checkbox" id="html" value="html">
+<label for="css">CSS</label>
+<input type="checkbox" id="css" value="css">
+<label for="js">JavaScript</label>
+<input type="checkbox" id="js" value="js">
+<label for="jquery">JQuery</label>
+<input type="checkbox" id="jquery" value="jquery">
+<label for="node">Node.js</label>
+<input type="checkbox" id="node" value="node">
+</fieldset>
+
+<a href="#alert" data-role="button" data-rel="dialog" data-inline="true" data-transition="slide">
+Submit </a>
+</div>
+
+<div data-role="footer">
+<h2>IT Hub Copyright &copy; 2010-2015</h2>
+</div>
+</div>
+
+<div data-role="page" id="alert" data-dialog="true">
+<div data-role="header">
+<h1>Thankyou for registering!</h1>
+</div>
+<div data-role="content">
+<a href="#page1" data-role=
+
+="button">Go back to home page</a>
+
+<a href="#page3" data-role=
+
+="button">Be on the same page</a>
+
+</div>
+
+<div data-role="footer">
+<h2>We will contact you soon!
+We will contact you soon!</h2>
+</div>
+</div>
+
+</body>
+
+</html>

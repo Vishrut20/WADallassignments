@@ -1,0 +1,22 @@
+.sidebar {
+    background-color: #faf8f9;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  @media (max-width: 767px) {
+    .sidebar {
+      min-height: auto;
+  
